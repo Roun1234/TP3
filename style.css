@@ -17,11 +17,13 @@ body
 
 .Banniere
 {
+    display: inline-block;
+    vertical-align:middle;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
     width: 1442px;
     height: 333px;
-    color: white;
-    justify-content: center;
-    text-shadow: 2px 2px 2px black;
-    display: flex;
     background-image: url("Image_TPFinal/Accueil.jpg");
 }
