@@ -1,0 +1,8 @@
+.Header
+{
+    background-color: #DA0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    content: space-between;
+    padding: 20px;
+}
