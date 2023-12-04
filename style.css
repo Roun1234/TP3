@@ -1,13 +1,19 @@
 body
 { 
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Header
 {
     background-color: #DA0D0D;
     display: flex;
-    padding: 20px;
+    padding-right: 1028.038px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .item_Header
@@ -15,15 +21,36 @@ body
     padding-left: 30px;
 }
 
+.item_Header a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .Banniere
 {
-    display: fl;
-    vertical-align:middle;
+    display: flex;
     color: white;
-    font-size: 50px;
-    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
     text-shadow: 2px 2px 2px black;
-    width: 1442px;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
     height: 333px;
     background-image: url("Image_TPFinal/Accueil.jpg");
+}
+
+.Footer
+{
+    background-color: #DA0D0D;
+    display: flex;
+    padding-right: 1100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
 }
