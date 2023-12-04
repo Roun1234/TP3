@@ -17,7 +17,7 @@ body
 
 .Banniere
 {
-    display: inline-block;
+    display: fl;
     vertical-align:middle;
     color: white;
     font-size: 50px;
