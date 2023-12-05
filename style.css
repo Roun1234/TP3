@@ -7,6 +7,7 @@ body
     align-items: center;
     padding: 0px;
     margin: 0px;
+    border: 0px;
 }
 
 .Header
@@ -40,7 +41,6 @@ body
     font-weight: bold;
 }
 
-
 .Banniere
 {
     display: flex;
@@ -55,11 +55,50 @@ body
     background-image: url("Image_TPFinal/Accueil.jpg");
 }
 
+.Centre
+{
+    display: flex;
+}
+
+.Entre_scroll
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+h2
+{
+    margin: 0px;
+}
+
+.Title
+{
+    
+}
+
+.Description
+{
+    padding: 50px;
+}
+
+.Button
+{
+
+}
+
+.Button a
+{
+    color: black;
+    text-decoration: none;
+}
+
 .Footer
 {
     background-color: #DA0D0D;
     display: flex;
-    padding-right: 1100px;
+    padding-right: 100px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
