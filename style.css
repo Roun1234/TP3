@@ -97,12 +97,31 @@ h2
 .Footer
 {
     background-color: #DA0D0D;
-    display: flex;
     padding-right: 100px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: left;
-    font-weight: bold;
     color: white;
+}
+
+.dragonEtInfo
+{
+    display: flex
+}
+
+.iconeEtContactEtReseaux
+{
+    display: flex;
+}
+
+.contact
+{
+    text-align: left;
+
+
+}
+
+.reseaux
+{
+
 }
