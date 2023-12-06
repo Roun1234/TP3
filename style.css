@@ -58,39 +58,66 @@ body
 .Centre
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Entre_scroll
 {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    
     font-weight: bold;
+    
 }
 
 h2
 {
+    text-align: center;
     margin: 0px;
 }
 
 .Title
 {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    margin-bottom: 10px;
+    color: white;
+    background-image: url("Image_TPFinal/peinture_Title.png");
 }
+
 
 .Description
 {
-    padding: 50px;
+    color: white;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 252px;
+    margin-bottom: 50px;
+    background-image: url("Image_TPFinal/peinture_description.png");
 }
 
 .Button
 {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    background-image: url("Image_TPFinal/peinture_button.png");
 }
 
 .Button a
 {
-    color: black;
+    text-align: center;
+    color: white;
     text-decoration: none;
 }
 
