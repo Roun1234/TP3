@@ -19,62 +19,68 @@
     <div class="Title">
         <h2>INSCRIPTION</h2>
     </div>
-
-    <form>
+    <form class="form">
         <div class="Field">
-            <label for="NomComplet">NOM COMPLET:* </label>
-            <br/>
-            <input type="text" id="NomComplet" name="NomComplet" required/>
+                <label for="NomComplet">NOM COMPLET:* </label> 
+            <div class="element" >
+                <input type="text" id="NomComplet" name="NomComplet" required/>
+            </div>
         </div>
         <div class="Field">
             <label for="Age">ÂGE:* </label>
-            <br/>
-            <input type="number" id="Age" name="Age" required/>
+            <div class="element" >
+                <input type="number" id="Age" name="Age" required/>
+            </div>
         </div>
         <div class="Field">
             <label for="Mail">ADRESSE COURRIEL:* </label>
-            <br/>
-            <input type="email" id="Mail" name="Mail" required/>
+            <div class="element" >
+                <input type="email" id="Mail" name="Mail" required/>
+            </div>    
         </div>
         <div class="Field">
             <label for="TelUtilisateur">NUMÉRO DE TÉLÉPHONE:* </label>
-            <br/>
-            <input type="tel" id="TelUtilisateur" name="TelUtilisateur" required/>
+            <div class="element" >
+                <input type="tel" id="TelUtilisateur" name="TelUtilisateur" required/>
+            </div> 
         </div>
         <div class="Field">
             <label for="NomGuardian">NOM DU TUTEUR LÉGAL(-18 ans): </label>
-            <br/>
-            <input type="text" id="NomGuardian" name="NomGuardian"/>
+            <div class="element" >
+                <input type="text" id="NomGuardian" name="NomGuardian"/>
+            </div>
         </div>
         <div class="Field">
             <label for="TelGuardian">NUMÉRO DU TUTEUR LÉGAL(-18 ans): </label>
-            <br/>
-            <input type="tel" id="TelGuardian" name="TelGuardian"/>
+            <div class="element" >
+                <input type="tel" id="TelGuardian" name="TelGuardian"/>
+            </div>
         </div>
         <div class="Field">
             <label for="Rang">ÉXPÉRIENCE/CEINTURE:* </label>
-            <br/>
-            <select type="Rang" id="Rang" name="Rang" required>
-                <option value="Aucun">Aucun</option>
-                <option value="Blanc">Blanc</option>
-                <option value="Orange">Orange</option>
-                <option value="Orange barre bleue">Orange barre bleue</option>
-                <option value="Bleu">Bleu</option>
-                <option value="Bleu barre jaune">Bleu barre jaune</option>
-                <option value="Jaune">Jaune</option>
-                <option value="Jaune barre verte">Jaune barre verte</option>
-                <option value="Vert">Vert</option>
-                <option value="Vert barre brune">Vert barre brune</option>
-                <option value="Brun">Brun</option>
-                <option value="Brun barre dorrée">Brun barre dorrée</option>
-                <option value="Noir+">Noir+</option>
-            </select>
+            <div class="element" >
+                <select type="Rang" id="Rang" name="Rang" required>
+                    <option value="Aucun">Aucun</option>
+                    <option value="Blanc">Blanc</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Orange barre bleue">Orange barre bleue</option>
+                    <option value="Bleu">Bleu</option>
+                    <option value="Bleu barre jaune">Bleu barre jaune</option>
+                    <option value="Jaune">Jaune</option>
+                    <option value="Jaune barre verte">Jaune barre verte</option>
+                    <option value="Vert">Vert</option>
+                    <option value="Vert barre brune">Vert barre brune</option>
+                    <option value="Brun">Brun</option>
+                    <option value="Brun barre dorrée">Brun barre dorrée</option>
+                    <option value="Noir+">Noir+</option>
+                </select>
+            </div>
         </div>
     </form>
 
 
     <div class="Button">
-        Envoyer
+        <a href="https://www.w3schools.com">Envoyer</a>
     </div>
 
     <div class="Footer">
