@@ -62,14 +62,22 @@ body
     justify-content: center;
 }
 
+.scroll_left
+{
+    margin-right:227.775px;
+}
+
+.scroll_right
+{
+    margin-left:227.775px;
+}
+
 .Entre_scroll
 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
     font-weight: bold;
-    
 }
 
 h2
@@ -86,6 +94,7 @@ h2
     width: 350px;
     height: 60px;
     margin-bottom: 10px;
+    margin-top: 64px;
     color: white;
     background-image: url("Image_TPFinal/peinture_Title.png");
 }
@@ -100,8 +109,8 @@ h2
     justify-content: center;
     width: 700px;
     height: 252px;
-    margin-bottom: 50px;
-    background-image: url("Image_TPFinal/peinture_description.png");
+    margin-bottom: 34px;
+    background-image: url("Image_TPFinal/coup_pinceau_description.png");
 }
 
 .Button
@@ -121,14 +130,47 @@ h2
     text-decoration: none;
 }
 
+.Map
+{
+    background-color: #DA0D0D;
+    padding: 20px;
+}
+
+.audio
+{
+    background-color: #DA0D0D;
+    padding: 20px;
+    border: 20px;
+    border-radius: 50px;
+    margin: 80px;
+}
+
 .Footer
 {
     background-color: #DA0D0D;
-    padding-right: 100px;
-    padding-left: 20px;
+    padding-left: 130px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 460.3px;
     color: white;
+}
+
+.dragon
+{
+    display: flex;
+    align-items: center;
+    margin-right: 180.3px;
+}
+
+.Info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.texte
+{
+    margin-bottom: 20px;
 }
 
 .dragonEtInfo
@@ -139,16 +181,33 @@ h2
 .iconeEtContactEtReseaux
 {
     display: flex;
+    align-items: center;
 }
 
 .contact
 {
+    display: flex;
+    flex-direction: column;
     text-align: left;
+}
 
+.contact_ligne
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.item_Icone
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 58.4px;
+    margin-right: 10px;
 }
 
 .reseaux
 {
-
+    margin-left: 43.13px;
 }
