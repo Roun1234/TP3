@@ -16,35 +16,66 @@
         <div class="item_Header MoreSpace"> <a href="index.html"><img src="Image_TPFinal/logo_reseaux_sociaux.png" alt="logoReseauxSociaux" width="125px" height="36.1875px"></a> </div>
     </div>
 
-    <div class="Banniere">
-        <h1>DOJO IPPON</h1>
-    </div>
-
-    <div class="Centre">
-        <div class="scroll_left"><img src="Image_TPFinal/scroll_officiel copy.png" alt="scroll_left" width="" height="450px"></div>
-        <div class="Entre_scroll">
-            <div class="Title">
-                <h2>ÉCOLE DE KARATÉ</h2>
-            </div>
-            <div class="Description">
-                <p>Le dojo Ippon est une école de karaté de style<br>
-                     ShinKyokushinkai. Ce sport est l’un des multiples arts<br>
-                     martiaux japonais traditionelles et notre école à comme but<br>
-                     de promouvoir les valeurs de ce style de karaté tel que<br>
-                     l’humilité, la persévérance, la discipline chez nos élèves.</p>
-            </div>
-            <div class="Button">
-                <a href="https://www.w3schools.com">En savoir plus</a>
-            </div>
-        </div>
-        <div class="scroll_right"><img src="Image_TPFinal/scroll_officiel copy.png" alt="scroll_right" width="" height="450px"></div>
-    </div>
-
     <div class="Title">
-        <h2>LOCALISATION</h2>
+        <h2>INSCRIPTION</h2>
     </div>
 
-    <img class="Map" src="Image_TPFinal/Carte.png" alt="Carte" width="" height="">
+    <form>
+        <div class="Field">
+            <label for="NomComplet">NOM COMPLET:* </label>
+            <br/>
+            <input type="text" id="NomComplet" name="NomComplet" required/>
+        </div>
+        <div class="Field">
+            <label for="Age">ÂGE:* </label>
+            <br/>
+            <input type="number" id="Age" name="Age" required/>
+        </div>
+        <div class="Field">
+            <label for="Mail">ADRESSE COURRIEL:* </label>
+            <br/>
+            <input type="email" id="Mail" name="Mail" required/>
+        </div>
+        <div class="Field">
+            <label for="TelUtilisateur">NUMÉRO DE TÉLÉPHONE:* </label>
+            <br/>
+            <input type="tel" id="TelUtilisateur" name="TelUtilisateur" required/>
+        </div>
+        <div class="Field">
+            <label for="NomGuardian">NOM DU TUTEUR LÉGAL(-18 ans): </label>
+            <br/>
+            <input type="text" id="NomGuardian" name="NomGuardian"/>
+        </div>
+        <div class="Field">
+            <label for="TelGuardian">NUMÉRO DU TUTEUR LÉGAL(-18 ans): </label>
+            <br/>
+            <input type="tel" id="TelGuardian" name="TelGuardian"/>
+        </div>
+        <div class="Field">
+            <label for="Rang">ÉXPÉRIENCE/CEINTURE:* </label>
+            <br/>
+            <select type="Rang" id="Rang" name="Rang" required>
+                <option value="Aucun">Aucun</option>
+                <option value="Blanc">Blanc</option>
+                <option value="Orange">Orange</option>
+                <option value="Orange barre bleue">Orange barre bleue</option>
+                <option value="Bleu">Bleu</option>
+                <option value="Bleu barre jaune">Bleu barre jaune</option>
+                <option value="Jaune">Jaune</option>
+                <option value="Jaune barre verte">Jaune barre verte</option>
+                <option value="Vert">Vert</option>
+                <option value="Vert barre brune">Vert barre brune</option>
+                <option value="Brun">Brun</option>
+                <option value="Brun barre dorrée">Brun barre dorrée</option>
+                <option value="Noir+">Noir+</option>
+            </select>
+        </div>
+    </form>
+
+
+    <div class="Button">
+        Envoyer
+    </div>
 
     <div class="Footer">
         <div class="texte">
