@@ -206,20 +206,24 @@ h2
     margin-top: 20px;
     color: white;
     line-height: 45px;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     width: 700px;
-    height: 500px;
     margin-bottom: 34px;
     background-image: url("Image_TPFinal/coup_pinceau_description.png");
 }
+
 .Field
 {
-padding: 10px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 200px;
 }
+
 .element
 {
-margin: -20px;
+    margin-top: -10px;
+    width: 300px;
 }
 .Legende
 {
@@ -238,7 +242,7 @@ margin: -20px;
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    
+    text-align: left;
 }
 .Sous-Titre
 {
