@@ -236,8 +236,8 @@ margin: -20px;
     background-image: url("Image_TPFinal/coup_pinceau_description.png");
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 .Sous-Titre
@@ -251,8 +251,7 @@ margin: -20px;
     text-align: center;
     color: white;
     text-decoration: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .Contenue
